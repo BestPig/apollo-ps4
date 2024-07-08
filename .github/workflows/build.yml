@@ -219,3 +219,10 @@ jobs:
         name: apollo-ps4-build_${{ env.sha_name }}
         path: apollo-ps4-build_${{ env.sha_name }}.pkg
         if-no-files-found: error
+
+    - name: Push OpenOrbis artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: OpenOrbis_${{ env.sha_name }}
+        path: OpenOrbis
+        if-no-files-found: error
