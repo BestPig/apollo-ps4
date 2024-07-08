@@ -155,7 +155,6 @@ const orbis_patch_t scesavedata_patches_85x[] = {
 
 const orbis_patch_t scesavedata_patches_900[] = {
     {0x00035DA8, "\x00", 1},        // 'sce_' patch
-    {0x00034679, "\x00", 1},        // 'sce_sdmemory' patch
     {0x00034609, "\x00", 1},        // by @Ctn
     {0x00036256, "\x00", 1},        // by @Ctn
     {0x00000FA1, "\x1F", 1},        // by GRModSave_Username
